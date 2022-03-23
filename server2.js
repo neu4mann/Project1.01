@@ -11,7 +11,7 @@ const {
   chooseAnswer4,
   chooseAnswer5,
   chooseAnswer6,
-
+ 
 } = require("./game2");
 
 //server
@@ -26,8 +26,8 @@ app.listen(PORT, function () {
 app.get("/start", (req, res) => {
   let startmsg = start();
   res.send(startmsg);
-  console.log(start);
-});
+  console.log(startmsg)
+  });
 
 //startnext
 app.get("/startnext", (req, res) => {
@@ -36,7 +36,7 @@ app.get("/startnext", (req, res) => {
 });
 
 //iironman
-app.get("/iironman", (req, res) => {
+app.get("/iironman", (req, res) => { 
   let iironman = req.query.iironman;
   let answer = chooseAnswer1(iironman);
   res.send(answer);

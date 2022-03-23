@@ -208,6 +208,17 @@ fruits.sort();
 A) JS Array Sort.
 B) JS Arrays
 
+6.
+Dr Strange conjures up a circular portal and reaches through and grabs the tablet behind Ultron's back without detection.  Dr Strange closes the portal and says a snarky "Thank you. Whatever you are".
+
+To access the tablet for the SOUL Code. Choose A or B:
+
+const d = new Date();
+d.getTime();
+
+A) JS Date Get Methods
+B) JS Date Set Methods
+
 
 
 Scoring
