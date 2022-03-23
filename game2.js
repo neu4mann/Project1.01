@@ -34,7 +34,7 @@ const chooseAnswer1 = (iironman) => {
 };
 
 //iSpider-Man POWER Code
-function chooseAnswer2(ispiderman) {
+const chooseAnswer2 = (ispiderman) => {
   if (ispiderman === "a" || ispiderman === "A") {
     return 'You choose a! Thats correct! iSpider-Man POWER code. Choose A or B: a) JS Arrays<a href="http://localhost:4000/ispiderman?answera">click here</a><br> b) JS Array Methods <a href="http://localhost:4000/ispiderman?answerb">click here</a>';
   } else if (ispiderman === "b" || ispiderman === "B") {
@@ -42,10 +42,10 @@ function chooseAnswer2(ispiderman) {
   } else {
     return "You have to enter a or b. Try again.";
   }
-}
+};
 
 //iHulk REALITY Code
-function chooseAnswer3(ihulk) {
+const chooseAnswer3 = (ihulk) => {
   if (ihulk === "a" || ihulk === "A") {
     return 'You choose a! Thats correct! iHulk swings to the top...To acces the tablet for the REALITY code. Choose A or B: a) JS Arrays<a href="http://localhost:4000/wood?quest1=a">click here</a><br> b) JS Array Methods <a href="http://localhost:4000/wood?quest1=b">click here</a>';
   } else if (ihulk === "b" || ihulk === "B") {
