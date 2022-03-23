@@ -18,6 +18,8 @@
   "homepage": "https://github.com/neu4mann/Project1.01#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.15",
     "readline-sync": "^1.4.10"
   }
 }

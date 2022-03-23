@@ -58,8 +58,10 @@ npm init -y jSON depends on express
 npm install express
 cat package.json
 ls node_modules
+npm install nodemon      npm install -g nodemon # or using yarn: yarn global add nodemon - keeps server going https://www.npmjs.com/package/nodemon?msclkid=69cb2580aa0211ec8cf28cfe2a40b178
 
-//---------------------------------Create Server Express--------
+
+//---------------------------------Create Server Express---------------------
 
 https://gist.github.com/gregfenton https://gist.github.com/gregfenton/6660d8541ecf6de84a1e2bf75809326f
 Create varaible 
@@ -72,6 +74,8 @@ string
 npx kill-port 4000
 
 localhost:4000
+
+
 
 
 ------------------Git Bash
